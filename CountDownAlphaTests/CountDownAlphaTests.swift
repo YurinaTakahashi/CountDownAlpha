@@ -9,7 +9,7 @@
 import XCTest
 @testable import CountDownAlpha
 
-class testTests: XCTestCase {
+class CountDownAlphaTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

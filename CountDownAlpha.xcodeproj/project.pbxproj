@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24DD6F26CCEF326F188CC1D6 /* Pods_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6816FB824BFE0C1BF8C1802E /* Pods_test.framework */; };
+		01731F9BC971413ED9D94895 /* Pods_CountDownAlpha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A364D93978291E41156302 /* Pods_CountDownAlpha.framework */; };
+		3B533EE6D50EF69E8AE5ABBF /* Pods_CountDownAlphaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E479D375CD4B5BD0A1E2CB1F /* Pods_CountDownAlphaUITests.framework */; };
 		5E6BEFE72111526D00699D36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6BEFE62111526D00699D36 /* AppDelegate.swift */; };
 		5E6BEFE92111526D00699D36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6BEFE82111526D00699D36 /* ViewController.swift */; };
 		5E6BEFEC2111526D00699D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E6BEFEA2111526D00699D36 /* Main.storyboard */; };
@@ -19,8 +20,7 @@
 		5E8922BB2112C264000F6266 /* CountDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8922BA2112C264000F6266 /* CountDown.swift */; };
 		5E8922BD2112EC0D000F6266 /* AddCowntDownSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8922BC2112EC0D000F6266 /* AddCowntDownSetView.swift */; };
 		5E8922D72112EE55000F6266 /* SettingData.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5E8922D62112EE55000F6266 /* SettingData.csv */; };
-		91AE0680709DCE78321B21D2 /* Pods_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6D7CFDD3784F7DB1206C41 /* Pods_testTests.framework */; };
-		A8ED37B1CCB399939BA5442F /* Pods_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE04F67BFA5FE9BB868AA7B /* Pods_testUITests.framework */; };
+		87FE569E8F21B59569C8D328 /* Pods_CountDownAlphaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C72D4CAA13861801042E89 /* Pods_CountDownAlphaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		065BA663150A035486829EAC /* Pods-testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testUITests/Pods-testUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		0AADE8592115BDDC00240CD1 /* ja-JP */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ja-JP"; path = "ja-JP.lproj/Main.strings"; sourceTree = "<group>"; };
 		0AADE85A2115BDDC00240CD1 /* ja-JP */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ja-JP"; path = "ja-JP.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		0F6D7CFDD3784F7DB1206C41 /* Pods_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		14CF5C7A22D7DA391B609CE5 /* Pods-testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testTests/Pods-testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1080969E2427A42EB71A2F88 /* Pods-CountDownAlphaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountDownAlphaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CountDownAlphaUITests/Pods-CountDownAlphaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		140919833F0084E59A06C88F /* Pods-CountDownAlphaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountDownAlphaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CountDownAlphaTests/Pods-CountDownAlphaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39C72D4CAA13861801042E89 /* Pods_CountDownAlphaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CountDownAlphaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE58AAE3765E37CD625ABB5 /* Pods-CountDownAlphaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountDownAlphaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CountDownAlphaUITests/Pods-CountDownAlphaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E6BEFE32111526D00699D36 /* CountDownAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountDownAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E6BEFE62111526D00699D36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E6BEFE82111526D00699D36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,12 +64,11 @@
 		5E8922BA2112C264000F6266 /* CountDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDown.swift; sourceTree = "<group>"; };
 		5E8922BC2112EC0D000F6266 /* AddCowntDownSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCowntDownSetView.swift; sourceTree = "<group>"; };
 		5E8922D62112EE55000F6266 /* SettingData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SettingData.csv; sourceTree = "<group>"; };
-		6816FB824BFE0C1BF8C1802E /* Pods_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		89A9719C6215D4445BE4792E /* Pods-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testTests/Pods-testTests.release.xcconfig"; sourceTree = "<group>"; };
-		9AE04F67BFA5FE9BB868AA7B /* Pods_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA4D0EA64BFF5A9E55744226 /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
-		F22EDADDAA18435A6FC0A9CD /* Pods-testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testUITests/Pods-testUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F4681DFC4FBB0DCD7AB385A5 /* Pods-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.release.xcconfig"; sourceTree = "<group>"; };
+		66A364D93978291E41156302 /* Pods_CountDownAlpha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CountDownAlpha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8035C41788204B296343A6 /* Pods-CountDownAlphaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountDownAlphaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CountDownAlphaTests/Pods-CountDownAlphaTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3824F56D5143EF98D465843 /* Pods-CountDownAlpha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountDownAlpha.release.xcconfig"; path = "Pods/Target Support Files/Pods-CountDownAlpha/Pods-CountDownAlpha.release.xcconfig"; sourceTree = "<group>"; };
+		E479D375CD4B5BD0A1E2CB1F /* Pods_CountDownAlphaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CountDownAlphaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBF9A646D9314BF65D7353B /* Pods-CountDownAlpha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountDownAlpha.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CountDownAlpha/Pods-CountDownAlpha.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DD6F26CCEF326F188CC1D6 /* Pods_test.framework in Frameworks */,
+				01731F9BC971413ED9D94895 /* Pods_CountDownAlpha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91AE0680709DCE78321B21D2 /* Pods_testTests.framework in Frameworks */,
+				87FE569E8F21B59569C8D328 /* Pods_CountDownAlphaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,19 +92,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8ED37B1CCB399939BA5442F /* Pods_testUITests.framework in Frameworks */,
+				3B533EE6D50EF69E8AE5ABBF /* Pods_CountDownAlphaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		278C0CC417497820F4DBF27A /* Frameworks */ = {
+		3725D348843149F6503982C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6816FB824BFE0C1BF8C1802E /* Pods_test.framework */,
-				0F6D7CFDD3784F7DB1206C41 /* Pods_testTests.framework */,
-				9AE04F67BFA5FE9BB868AA7B /* Pods_testUITests.framework */,
+				66A364D93978291E41156302 /* Pods_CountDownAlpha.framework */,
+				39C72D4CAA13861801042E89 /* Pods_CountDownAlphaTests.framework */,
+				E479D375CD4B5BD0A1E2CB1F /* Pods_CountDownAlphaUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,9 +116,9 @@
 				5E6BEFFA2111526F00699D36 /* CountDownAlphaTests */,
 				5E6BF0052111526F00699D36 /* CountDownAlphaUITests */,
 				5E6BEFE42111526D00699D36 /* Products */,
-				99E2B952317AA897C6EBAF68 /* Pods */,
-				278C0CC417497820F4DBF27A /* Frameworks */,
 				5E8922D52112EE55000F6266 /* Resources */,
+				6F15DADEE435F31FB0E14929 /* Pods */,
+				3725D348843149F6503982C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,15 +174,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		99E2B952317AA897C6EBAF68 /* Pods */ = {
+		6F15DADEE435F31FB0E14929 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CA4D0EA64BFF5A9E55744226 /* Pods-test.debug.xcconfig */,
-				F4681DFC4FBB0DCD7AB385A5 /* Pods-test.release.xcconfig */,
-				14CF5C7A22D7DA391B609CE5 /* Pods-testTests.debug.xcconfig */,
-				89A9719C6215D4445BE4792E /* Pods-testTests.release.xcconfig */,
-				065BA663150A035486829EAC /* Pods-testUITests.debug.xcconfig */,
-				F22EDADDAA18435A6FC0A9CD /* Pods-testUITests.release.xcconfig */,
+				ECBF9A646D9314BF65D7353B /* Pods-CountDownAlpha.debug.xcconfig */,
+				D3824F56D5143EF98D465843 /* Pods-CountDownAlpha.release.xcconfig */,
+				140919833F0084E59A06C88F /* Pods-CountDownAlphaTests.debug.xcconfig */,
+				9C8035C41788204B296343A6 /* Pods-CountDownAlphaTests.release.xcconfig */,
+				5AE58AAE3765E37CD625ABB5 /* Pods-CountDownAlphaUITests.debug.xcconfig */,
+				1080969E2427A42EB71A2F88 /* Pods-CountDownAlphaUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -330,7 +330,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-testTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CountDownAlphaTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -348,7 +348,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-test-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CountDownAlpha-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -361,16 +361,18 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-test/Pods-test-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-CountDownAlpha/Pods-CountDownAlpha-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CalculateCalendarLogic/CalculateCalendarLogic.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CalculateCalendarLogic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test/Pods-test-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CountDownAlpha/Pods-CountDownAlpha-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FECF423BEF156A95B0AB2CBA /* [CP] Check Pods Manifest.lock */ = {
@@ -384,7 +386,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-testUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CountDownAlphaUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -577,12 +579,12 @@
 		};
 		5E6BF00C2111526F00699D36 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA4D0EA64BFF5A9E55744226 /* Pods-test.debug.xcconfig */;
+			baseConfigurationReference = ECBF9A646D9314BF65D7353B /* Pods-CountDownAlpha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q8HCDK9N4;
-				INFOPLIST_FILE = test/Info.plist;
+				INFOPLIST_FILE = CountDownAlpha/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -597,12 +599,12 @@
 		};
 		5E6BF00D2111526F00699D36 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4681DFC4FBB0DCD7AB385A5 /* Pods-test.release.xcconfig */;
+			baseConfigurationReference = D3824F56D5143EF98D465843 /* Pods-CountDownAlpha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q8HCDK9N4;
-				INFOPLIST_FILE = test/Info.plist;
+				INFOPLIST_FILE = CountDownAlpha/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -617,19 +619,19 @@
 		};
 		5E6BF00F2111526F00699D36 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14CF5C7A22D7DA391B609CE5 /* Pods-testTests.debug.xcconfig */;
+			baseConfigurationReference = 140919833F0084E59A06C88F /* Pods-CountDownAlphaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33EMJP7DET;
-				INFOPLIST_FILE = testTests/Info.plist;
+				INFOPLIST_FILE = CountDownAlphaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.testTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CountDownAlphaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -639,19 +641,19 @@
 		};
 		5E6BF0102111526F00699D36 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89A9719C6215D4445BE4792E /* Pods-testTests.release.xcconfig */;
+			baseConfigurationReference = 9C8035C41788204B296343A6 /* Pods-CountDownAlphaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33EMJP7DET;
-				INFOPLIST_FILE = testTests/Info.plist;
+				INFOPLIST_FILE = CountDownAlphaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.testTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CountDownAlphaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -661,43 +663,43 @@
 		};
 		5E6BF0122111526F00699D36 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 065BA663150A035486829EAC /* Pods-testUITests.debug.xcconfig */;
+			baseConfigurationReference = 5AE58AAE3765E37CD625ABB5 /* Pods-CountDownAlphaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33EMJP7DET;
-				INFOPLIST_FILE = testUITests/Info.plist;
+				INFOPLIST_FILE = CountDownAlphaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.testUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CountDownAlphaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = test;
+				TEST_TARGET_NAME = CountDownAlpha;
 			};
 			name = Debug;
 		};
 		5E6BF0132111526F00699D36 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F22EDADDAA18435A6FC0A9CD /* Pods-testUITests.release.xcconfig */;
+			baseConfigurationReference = 1080969E2427A42EB71A2F88 /* Pods-CountDownAlphaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33EMJP7DET;
-				INFOPLIST_FILE = testUITests/Info.plist;
+				INFOPLIST_FILE = CountDownAlphaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.testUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CountDownAlphaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = test;
+				TEST_TARGET_NAME = CountDownAlpha;
 			};
 			name = Release;
 		};

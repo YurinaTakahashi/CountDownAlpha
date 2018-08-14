@@ -1,0 +1,6 @@
+framework module Pods_CountDownAlphaUITests {
+  umbrella header "Pods-CountDownAlphaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
