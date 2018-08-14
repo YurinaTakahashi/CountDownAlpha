@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CountCellEmpty" rowHeight="124" id="CXA-Ll-vNF" customClass="CountViewCell" customModule="test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="124"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CXA-Ll-vNF" id="mCu-9y-vk9">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="123.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2018.09.31" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ywO-n8-Anv">
+                        <rect key="frame" x="16" y="41" width="133.5" height="18.5"/>
+                        <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="カウントダウンAB" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="faV-D8-z2B">
+                        <rect key="frame" x="16" y="14" width="343" height="23"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="97" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ln-xA-5Cp">
+                        <rect key="frame" x="225" y="49" width="45.5" height="71"/>
+                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="46"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="days" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="An0-Wr-EFO">
+                        <rect key="frame" x="295.5" y="87" width="48.5" height="29"/>
+                        <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.72397005219999999" green="0.97680455450000003" blue="0.96254308109999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="faV-D8-z2B" firstAttribute="trailing" secondItem="mCu-9y-vk9" secondAttribute="trailingMargin" id="FzX-dZ-p3m"/>
+                    <constraint firstItem="faV-D8-z2B" firstAttribute="top" secondItem="mCu-9y-vk9" secondAttribute="topMargin" constant="3" id="H36-mJ-DxD"/>
+                    <constraint firstItem="ywO-n8-Anv" firstAttribute="top" secondItem="mCu-9y-vk9" secondAttribute="topMargin" constant="30" id="VXx-H1-zPF"/>
+                    <constraint firstItem="ywO-n8-Anv" firstAttribute="leading" secondItem="mCu-9y-vk9" secondAttribute="leadingMargin" id="dAb-iE-Bt8"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="An0-Wr-EFO" secondAttribute="trailing" constant="15" id="oaZ-32-Wgx"/>
+                    <constraint firstItem="An0-Wr-EFO" firstAttribute="bottom" secondItem="mCu-9y-vk9" secondAttribute="bottomMargin" constant="3" id="qMd-cJ-VJ6"/>
+                    <constraint firstItem="faV-D8-z2B" firstAttribute="leading" secondItem="mCu-9y-vk9" secondAttribute="leadingMargin" id="tuo-54-SQf"/>
+                    <constraint firstItem="An0-Wr-EFO" firstAttribute="leading" secondItem="9Ln-xA-5Cp" secondAttribute="trailing" constant="25" id="vuS-UO-XQx"/>
+                    <constraint firstAttribute="bottom" secondItem="9Ln-xA-5Cp" secondAttribute="bottom" constant="3" id="w2S-ll-DRX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="countDown" destination="9Ln-xA-5Cp" id="w8M-7Y-nNM"/>
+                <outlet property="endDay" destination="ywO-n8-Anv" id="gka-tx-ryS"/>
+                <outlet property="title" destination="faV-D8-z2B" id="HNJ-3R-QB3"/>
+            </connections>
+            <point key="canvasLocation" x="-365.5" y="102"/>
+        </tableViewCell>
+    </objects>
+</document>
